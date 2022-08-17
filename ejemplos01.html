@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplos</title>
+    <link rel="shortcut icon" href="img/encyclopedia.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilo_pag.css">
+</head>
+<header> <!-- Menú en Encabezado -->
+    <nav>
+        <a href="#">Ejemplos</a>
+        <a href="#">Tutoriales</a>
+        <a href="#">Referencias</a>
+    </nav> 
+</header> 
+<body>
+    <section class="contenido">
+        <frameset cols = "40%, 60%">
+            <frame name = "left" src ="index.html" />
+        <!--   Scroll bar  -->    
+                <div id="Layer1" style="width:300px; height: 500px; overflow: scroll;">
+            <!-- Caja de búsqueda -->    
+                    <div class="buscar">
+                        <input type="text" placeholder="Buscar" required>
+                        <div class="btn">
+                            <!---     <img src="img/search.jpg" alt="" class="search">     -->
+                        </div>
+                    
+            <!-- Menú en Barra Izquierda -->
+                        <div class="enlace">
+                            <a href="test_01_grafica/grafica.html">Ejemplo No. 01</a> <br><br><br>
+                            <a href="#">Ejemplo No. 02</a> <br><br><br>
+                            <a href="#">Ejemplo No. 03</a> <br><br><br>
+                            <a href="#">Ejemplo No. 04</a> <br><br><br>
+                            <a href="#">Ejemplo No. 05</a> <br><br><br>
+                        </div>
+                    </div>
+                </div>
+            </frameset>
+        <!-- Contenido en Barra Derecha -->   
+            <div class="enlace">
+                <a>Simulador Flujo Magnético Estator</a>
+                    <frame name = "right" src = "img/Figure_10.jpeg" />  
+                    
+            
+            </div>
+        </frameset>
+    </section>
+</body>
+</html>
